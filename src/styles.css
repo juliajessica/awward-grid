@@ -1,0 +1,38 @@
+p {
+  margin: 0;
+}
+
+
+body {
+
+}
+
+.grid {
+  max-width: 1500px;
+  margin: auto;
+}
+
+
+.grid-header {
+  background-color: blue;
+}
+
+.grid-nav {
+  background-color: yellow;
+}
+
+.grid-items-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  justify-content: center;
+  margin: inherit;
+  grid-auto-flow: dense;
+}
+
+.grid-items {
+  background-color: green;
+}
+.grid-footer{
+  background-color: purple;
+}
