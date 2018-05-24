@@ -4,7 +4,7 @@ p {
 
 
 body {
-
+  background-color: #f4f7f6;
 }
 
 .grid {
@@ -14,11 +14,66 @@ body {
 
 
 .grid-header {
-  background-color: blue;
+  background-color: #f4f7f6;
+  border: 1px solid black;
+  height: 70px;
+  font-size: 13px;
+}
+
+.logo-container {
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+}
+
+.header-left {
+  padding: 22px 25px 0 10px;
+  height: inherit;
+  /* margin: 20px; */
+  border-right: 1px solid black;
+}
+
+
+
+.search-icon {
+  /* margin-right: auto; */
+  height: inherit;
+  padding-top: 23px;
+}
+
+.search-icon > i {
+  align-self: flex-start;
+}
+
+.header-center > img {
+  align-self: center;
+  height: 67px;
+  width: auto;
+  margin: 0 275px 0 260px;
+}
+
+.register {
+  align-self: center;
+  padding: 21px 0px 21px 10px;
+  margin-right: -40px;
+  transition: color 0.3s ease-in-out;
+}
+
+.submit {
+  align-self: center;
+  padding: 21px;
+  background-color: #48c6b6;
+  color: white;
 }
 
 .grid-nav {
-  background-color: yellow;
+  background-color: #f4f7f6;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-nav p {
+  padding: 20px;
 }
 
 .grid-items-parent {
