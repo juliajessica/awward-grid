@@ -140,30 +140,45 @@ body {
   /* transform: scale(1.2); */
 }
 
-/* .award-tag1 {
-  background-color: #9FD2D6;
-  color: #fff;
-} */
+.honorableAwards {
+  display: flex;
+  justify-content: flex-end;
 
-.award-tag2 {
-  background-color: #9FD2D6;
-  color: #fff;
 }
 
-.award-tag3 {
-  background-color: #9FD2D6;
-  color: #fff;
-}
 
 .award-tag1 {
   background-color: #9FD2D6;
+  width: 30px;
+  font-size: 10px;
+  text-align: center;
   color: #fff;
 	position: relative;
-	background: #00aabb;
 	border-radius: .4em;
 }
 
-.award-tag1:hover{
+.award-tag2 {
+  background-color: #FF4E4E;
+  color: #fff;
+  width: 30px;
+  font-size: 10px;
+  text-align: center;
+	position: relative;
+	border-radius: .4em;
+}
+
+.award-tag3 {
+  background-color: #8154EF;
+  color: #fff;
+  width: 30px;
+  font-size: 10px;
+  text-align: center;
+  color: #fff;
+	position: relative;
+	border-radius: .4em;
+}
+
+/* .award-tag1:hover{
 	content: 'Honorable Mention';
 	position: absolute;
 	bottom: 0;
@@ -176,7 +191,7 @@ body {
 	border-left: 0;
 	margin-left: -20px;
 	margin-bottom: -50px;
-}
+} */
 
 
 
