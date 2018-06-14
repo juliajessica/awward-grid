@@ -1,14 +1,9 @@
-# JS Template Repo for Epicodus
+# Awward Clone using Grid and Flexbox
 
 ## By Julia Sheremet
 
 # Description
-This is a template directory to make things go quicker in the morning.
-
-# Specifications
-* The program will hold the necessary files and folders for easy cloning
-  * Input Example: **Example**
-  * Output Example: **Example**
+This is a single page Awward Clone using CSS to practice Grid and Flexbox.
 
 # Setup Requirements
 * Clone this repository
